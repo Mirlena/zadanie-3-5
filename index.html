@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Source+Serif+Pro&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Module 3</title>
+  </head>
+  <body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!--Section Navigation-->
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="#">MODERN PRINCESS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="navbar-nav">
+          <li class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Clothing</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Outfits</a>
+              <a class="dropdown-item" href="#">Tops</a>
+              <a class="dropdown-item" href="#">Bottoms</a>
+            </div>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Lingerie</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Shoes</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Accessories</a>
+          </li>
+        </ul>
+          <div class="btn-group ml-auto" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-success">
+              <i class="fas fa-shopping-cart"></i>Cart</button>
+            <button type="button" class="btn btn-success">
+              <i class="fas fa-user"></i>Account</button>
+        </div>
+      </div>
+    </nav>
+    
+    <!--Carousel-->
+    <div id="main-slider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="cover" src="https://i.postimg.cc/mrkRYsN9/1.jpg" alt="image">
+          <div class="carousel-caption">
+            <h4 class="header-1">NEW ARRIVAL</h4>
+            <h3 class="header-2">Nulla maximus</h3>
+            <a class="btn btn-primary btn-lg" href="#">Shop now</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="cover-2" src="https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+          <div class="carousel-caption">
+            <h4 class="header-1">NEW ARRIVAL</h4>
+            <h3 class="header-2">Nulla maximus</h3>
+            <a class="btn btn-primary btn-lg" href="#">Shop now</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="cover-3" src="https://images.pexels.com/photos/291762/pexels-photo-291762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+          <div class="carousel-caption">
+            <h4 class="header-1">NEW ARRIVAL</h4>
+            <h3 class="header-2">Nulla maximus</h3>
+            <a class="btn btn-primary btn-lg" href="#">Shop now</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#main-slider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#main-slider" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+    <!--Products-->
+    <div class="py-5">
+    <div class="container">
+      <div class="row"> 
+        <div class="col-lg-3">
+          <h2>Brands</h2>
+          <div class="list-group d-flex flex-sm-row flex-lg-column">
+            <a class="list-group-item list-group-item-action">Louis Vuitton</a>
+            <a class="list-group-item list-group-item-action">Prada</a>
+            <a class="list-group-item list-group-item-action">Dolce & Gabanna</a>
+            <a class="list-group-item list-group-item-action">Chanel</a>
+            <a class="list-group-item list-group-item-action">Fendi</a>
+          </div>
+        </div>        
+        <div class="col-lg-9">
+          <h2>New arrivals</h2>
+          <div class="row">
+            <div class="col-sm-6 col-lg-4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://images.pexels.com/photos/1407157/pexels-photo-1407157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  <div class="card-body">
+                    <h5 class="card-title">Bottega Veneta</h5>
+                    <a class="btn btn-light">Add to cart</a>
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://images.pexels.com/photos/1453008/pexels-photo-1453008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  <div class="card-body">
+                    <h5 class="card-title"> Alhambra</h5>
+                    <a class="btn btn-light">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://images.pexels.com/photos/89785/fashion-model-girl-in-white-dress-hairstyle-hair-89785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  <div class="card-body">
+                    <h5 class="card-title">Embellished</h5>
+                    <a class="btn btn-light">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 d-lg-none d-xl-none">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  <div class="card-body">
+                    <h5 class="card-title">Suspendisse</h5>
+                    <a class="btn btn-light">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <!--Sales-->
+    <div class="py-5 sales">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3 d-flex justify-content-center d-flex align-items-center border-0">
+                  <img src="https://i.postimg.cc/c4Jw9kx7/8.jpg" class="img-fluid" alt="Responsive image">
+                  <div class="card-body position-absolute text-center">
+                    <h5 class="card-title-1">Winter sale</h5>
+                    <a class="btn btn-primary" href="#">See deals</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-3 d-flex justify-content-center d-flex align-items-center border-0">
+                <img  src="https://i.postimg.cc/XvXyxrnV/9.jpg" class="img-fluid" alt="Responsive image">
+                <div class="card-body position-absolute text-center">
+                  <h5 class="card-title-1">Lookbook</h5>
+                  <a class="btn btn-primary" href="#">Get inspired</a>
+                </div> 
+              </div>
+            </div>
+        </div>        
+        <div class="">
+          <div class="card mb-3 d-flex justify-content-center d-flex align-items-center">
+            <img src="https://i.postimg.cc/Gp01gNCH/10.jpg" class="img-fluid" alt="Responsive image">
+            <div class="card-body position-absolute text-center">
+              <h5 class="card-title-1">News and ideas</h5>
+              <a class="btn btn-primary" href="#">Go to blog</a>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+   
+        
+    <!--Free shipping-->
+    <div class="pb-5 shipping">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm d-md-none d-lg-block">
+            <div class="card p-3 mb-3">
+              <div class="row">
+                <div class="col-md-2 pt-4 pl-4">
+                  <i class="fas fa-truck fa-lg t-4 l-4"></i>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h4>Free shipping</h4>
+                    <p>Curabitur eget ligula nisl.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm">
+            <div class="card p-3 mb-3">
+              <div class="row">
+                <div class="col-md-2 pt-4 pl-4">
+                  <i class="fas fa-money-bill-wave fa-lg t-4 l-3"></i>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h4>60-day refund</h4>
+                    <p>Curabitur eget ligula nisl.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm">
+            <div class="card p-3 mb-3">
+              <div class="row">
+                <div class="col-md-2 pt-4 pl-4">
+                  <i class="fas fa-life-ring fa-lg t-4 l-3"></i>
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h4>24/7 support</h4>
+                    <p>Curabitur eget ligula nisl.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>      
+      <!--Contact-->
+      <div class="pt-5 container-contact">
+        <div class="container">
+          <div class="pb-5 pl-10">
+            <div class="row">
+              <div class="col-md-4 col-sm d-md-none d-lg-block">
+                  <div class="card-body border-0">
+                    <h4>Newsletter</h4>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <form>
+                      <input type="text" id="fname" name="first-name" placeholder="Enter email"/><br>
+                      <label for="fname"><sub>We`ll never share your email with anyone else.</sub></label>
+                    </form>
+                    <a class="btn btn-primary" href="#">Submit</a>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm d-md-none d-lg-block">
+                <div class="card-body border-0">
+                  <h4>MODERN PRINCESS</h4>
+                  <p>Vestibulum varius neque non<br>posuere dapibus</p>              
+                  <i class="fab fa-facebook-f"></i>             
+                  <i class="fab fa-instagram"></i>            
+                  <i class="fab fa-twitter"></i>              
+                  <i class="fab fa-youtube"></i>              
+                </div>
+              </div>
+              <div class="col-md-4 col-sm d-md-none d-lg-block">   
+                <div class="card-body border-0">
+                  <h4>Contact us</h4>
+                  <p>2795 Cunningham Court<br>Rochester Hills 48306 Michigan</p>
+                  <a href="#">support@company.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+    
+    <!--Stopka-->
+    
+    <div class="footer">
+     
+        <div class="row">
+          <div class="col-md-4">
+            <i class="far fa-copyright"></i>
+            <span class="namefirm">Modern Princess Ltd.</span>
+          </div>
+          <div class="col-md-6">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">About</a></li>
+              <li class="list-inline-item"><a href="#">Delivery</a></li>
+              <li class="list-inline-item"><a href="#">Returns</a></li>
+              <li class="list-inline-item"><a href="#">Privacy policy</a></li>
+              <li class="list-inline-item"><a href="#">Terms and conditions</a></li>
+            </ul>
+          </div>
+        </div>  
+      </div>
+    
+
+  </body>
+
+
+
+
+
+
+

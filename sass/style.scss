@@ -1,0 +1,120 @@
+/* Global */
+
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Slider */
+  
+  .carousel-inner, .carousel-item {
+    height: 100vh;
+  }
+  .cover {
+    height: 113vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .cover-2 {
+    height: 142vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  .cover-3 {
+    height: 108vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    padding-top: 0;
+    padding-bottom: 0;
+    right: auto;
+    bottom: auto;
+    left: 28%;
+    top: 27%;
+  }
+  .header-1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding-bottom: 46px;
+    letter-spacing: 2px
+  }
+  .header-2 {
+    font-family: 'Source Serif Pro', serif;;
+    font-size: 90px;
+    padding-bottom: 18px;
+  }
+  .btn .btn-primary {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /*Products*/
+
+  h1, h2 {
+    margin:40px 0px;
+  }
+  .card-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-title-1 {
+    font-family: 'Source Serif Pro', serif;;
+    font-size: 50px;
+    color: #ffffff;
+  } 
+  
+  /* Sales */
+  
+  .col img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    }
+  .col-md-6 img{
+    width: 110vh;
+    height: 300px;
+    object-fit: cover;
+    padding-right: 0px;
+  }
+  img.img-fluid {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  /* Contact */
+
+  .container-contact {
+    background: #eff2f5;
+    }
+  input {
+    width: 245px;
+  }
+
+  
+  /*Stopka*/
+
+  .footer {
+    background: #d0d9e1;
+    height: 46px;
+    overflow: hidden;
+  }
+  
+  .far.fa-copyright {
+    padding-top: 19px;
+    padding-left: 120px;
+    font-size: 12px;
+  }
+  .list-inline {
+    padding-top: 13px;
+    float: right;
+    font-size: 14px;
+    
+  }
+  .namefirm {
+    font-size: 14px;
+  }
+
+
